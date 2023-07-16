@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers Purity Test</title>
+    <link rel="stylesheet" href="assets/style.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="assets/questionLoader.js" defer></script>
+    <link rel="icon" href="/assets/code.png"/>
+</head>
+<body>
+
+    <h1 class="text-center">Programmers Purity Test</h1>
+    <p class="text-center">
+        <b>Caution</b>: 
+        This is not a bucket list. <br/>
+        Completion of all items on this test indicates that you are a BAD programmer.
+    </p>
+
+    <div id="toHide">
+        <small class="prompt">Tick all the items that you've done</small>
+        <ol id="question_items"></ol>
+        <input class="button" id="submit" type="submit" value="Calculate My Score!">
+    </div>
+
+    <div id="toShow" class="text-center">
+        <h2 id="test">Your score is:</h2>
+        <h1 id="score"></h1>
+        <small class="test-retake">
+            Please refresh this page to retake the test
+        </small>
+    </div>
+
+</body>
+</html>
