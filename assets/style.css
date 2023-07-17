@@ -19,6 +19,7 @@ body{
     border-radius: 3px;
     margin-left: 20px;
     cursor: pointer;
+    color: #000 !important;
 }
 #submit:hover{
     background-color: #ffdd78;
